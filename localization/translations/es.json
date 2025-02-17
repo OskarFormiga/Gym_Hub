@@ -1,0 +1,440 @@
+{
+  "LoginScreen": {
+    "emailPlaceholder": "Email/Usuario",
+    "passwordPlaceholder": "Contraseña",
+    "loginButton": "Iniciar Sesión",
+    "registerLink": "¿No tienes cuenta? Regístrate",
+    "forgotPasswordLink": "¿Olvidaste tu contraseña?",
+    "emailError": "El email no puede estar vacío.",
+    "passwordError": "La contraseña no puede estar vacía.",
+    "introText": "Inicio de Sesión",
+    "language": {
+      "english": "EN",
+      "spanish": "ES",
+      "catalan": "CAT"
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "Ha ocurrido un error. Por favor, intenta de nuevo."
+    }
+  },
+  "RegisterGymScreen": {
+    "title": "Registro de Centro",
+    "namePlaceholder": "Nombre",
+    "cityPlaceholder": "Ciudad",
+    "locationPlaceholder": "Ubicación",
+    "countryPlaceholder": "País",
+    "zipCodePlaceholder": "Código Postal",
+    "descriptionPlaceholder": "Descripción",
+    "emailPlaceholder": "Correo Electrónico",
+    "passwordPlaceholder": "Contraseña",
+    "confirmPasswordPlaceholder": "Confirmar Contraseña",
+    "registerButton": "Registrar",
+    "backToLoginLink": "Volver al Inicio de Sesión",
+    "registerUserLink": "¿Quieres darte de alta como usuario?",
+    "errors": {
+      "nameError": "El nombre no puede estar vacío.",
+      "cityError": "La ciudad no puede estar vacía.",
+      "countryError": "El país no puede estar vacío.",
+      "locationError": "La ubicación no puede estar vacía.",
+      "zipCodeError": "El código postal no puede estar vacío.",
+      "descriptionError": "La descripción no puede estar vacía.",
+      "emailError": "El email no puede estar vacío.",
+      "emailInvalidError": "El email no es válido.",
+      "passwordError": "La contraseña no puede estar vacía.",
+      "confirmPasswordError": "Las contraseñas no coinciden."
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "Ha ocurrido un error. Por favor, intenta de nuevo."
+    }
+  },
+  "RegisterUserScreen": {
+    "title": "Registro de Usuario",
+    "namePlaceholder": "Nombre",
+    "lastnamePlaceholder": "Apellido",
+    "birthDatePlaceholder": "Fecha de Nacimiento",
+    "countryPlaceholder": "País",
+    "emailPlaceholder": "Correo Electrónico",
+    "passwordPlaceholder": "Contraseña",
+    "confirmPasswordPlaceholder": "Confirmar Contraseña",
+    "registerButton": "Registrar",
+    "backToLoginLink": "Volver al Inicio de Sesión",
+    "registerGymLink": "¿Quieres dar de alta un centro?",
+    "errors": {
+      "nameError": "El nombre no puede estar vacío.",
+      "lastnameError": "El apellido no puede estar vacío.",
+      "birthDateError": "La fecha de nacimiento no puede estar vacía.",
+      "countryError": "El país no puede estar vacío.",
+      "emailError": "El email no puede estar vacío.",
+      "emailInvalidError": "El email no es válido.",
+      "passwordError": "La contraseña no puede estar vacía.",
+      "confirmPasswordError": "Las contraseñas no coinciden."
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "Ha ocurrido un error. Por favor, intenta de nuevo."
+    }
+  },
+  "ForgotPasswordScreen": {
+    "emailPlaceholder": "Correo Electrónico",
+    "resetPasswordButton": "Restablecer Contraseña",
+    "backToLoginLink": "Volver al Inicio de Sesión",
+    "errors": {
+      "emailError": "El email no puede estar vacío.",
+      "emailInvalidError": "El email no es válido."
+    }
+  },
+  "UserCalendarScreen": {
+    "applyButton": "Aplicar",
+    "all": "Todo",
+    "morning": "Mañana",
+    "noon": "Mediodía",
+    "afternoon": "Tarde",
+    "allGyms": "Todos los Centros",
+    "sessionsTitle": "Sesiones el",
+    "noSessions": "No hay sesiones el",
+    "modal": {
+      "instructor": "Instructor",
+      "center": "Centro",
+      "capacity": "Capacidad",
+      "additionalInfo": "Información Adicional",
+      "activity": "Actividad",
+      "enroll": "Inscribirse",
+      "cancel": "Cancelar",
+      "completed": "Completado"
+    },
+    "confirmEnroll": {
+      "title": "Confirmar Inscripción",
+      "message": "¿Estás seguro de que quieres inscribirte en la sesión",
+      "confirmButton": "Confirmar",
+      "cancelButton": "Cancelar"
+    },
+    "confirmCancel": {
+      "title": "Confirmar Cancelación",
+      "message": "¿Estás seguro de que quieres cancelar tu inscripción en la sesión",
+      "confirmButton": "Confirmar",
+      "cancelButton": "Cancelar"
+    },
+    "loadingMessage": "Cargando..."
+  },
+  "GymSearchScreen": {
+    "currentReservations": "Reservas actuales",
+    "completedReservations": "Reservas completadas",
+    "searchPlaceholder": "Buscar por nombre...",
+    "showActivityButton": "Mostrar Activitat"
+  },
+  "RankingScreen": {
+    "weekly": "Semanal",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "completedSessions": "Sesiones completadas",
+    "currentSessions": "Sesiones actuales",
+    "searchPlaceholder": "Buscar por nombre...",
+    "showActivityButton": "Mostrar Activitat"
+  },
+  "UserComponent": {
+    "loadingMessage": "Cargando...",
+    "editProfileButton": "Editar",
+    "logoutButton": "Cerrar sesión",
+    "completedSessions": "Sesiones completadas",
+    "year": "Año",
+    "month": "Mes",
+    "week": "Semana",
+    "gyms": "Gimnasios",
+    "born": "Nacido el",
+    "editProfileTitle": "Editar perfil",
+    "firstNameLabel": "Nombre",
+    "lastNameLabel": "Apellido",
+    "cityLabel": "Ciudad",
+    "countryLabel": "País",
+    "birthDateLabel": "Fecha de nacimiento",
+    "cancelButton": "Cancelar",
+    "saveButton": "Guardar",
+    "deleteGymConfirmation": "¿Estás seguro que quieres darte de baja del centro?",
+    "deleteGymSuccess": "Te has dado de baja con éxito",
+    "deleteGymError": "Error al eliminar el gimnasio",
+    "allFieldsRequired": "Todos los campos son obligatorios.",
+    "profileUpdateSuccess": "Perfil actualizado con éxito",
+    "profileUpdateError": "Error al actualizar el perfil"
+  },
+  "GymsViewComponent": {
+    "loadingMessage": "Cargando...",
+    "searchPlaceholder": "Buscar por nombre...",
+    "searchCentersButton": "Buscar centros",
+    "myCentersButton": "Mis centros",
+    "previousButton": "Anterior",
+    "nextButton": "Siguiente"
+  },
+  "UsersScreen": {
+    "loadingMessage": "Cargando...",
+    "searchPlaceholder": "Buscar usuarios...",
+    "currentRegistrationsButton": "Inscripciones Actuales",
+    "pendingRegistrationsButton": "Inscripciones Pendientes",
+    "previousButton": "Anterior",
+    "nextButton": "Siguiente"
+  },
+  "ActivitiesScreen": {
+    "loadingMessage": "Cargando...",
+    "searchPlaceholder": "Buscar actividades...",
+    "addActivityButton": "Añadir Actividad",
+    "previousButton": "Anterior",
+    "nextButton": "Siguiente"
+  },
+  "CalendarScreen": {
+    "loadingMessage": "Cargando...",
+    "all": "Todo",
+    "morning": "Mañana",
+    "noon": "Mediodía",
+    "afternoon": "Tarde",
+    "applyButton": "Aplicar",
+    "sessionsTitle": "Sesiones para el día seleccionado:",
+    "noSessionsMessage": "No hay sesiones para la fecha seleccionada",
+    "enroll": "Inscribirse",
+    "cancelEnroll": "Cancelar inscripción",
+    "complete": "Completar",
+    "update": "Actualizar",
+    "delete": "Eliminar",
+    "confirmEnrollMessage": "¿Está seguro de que desea inscribirse en la sesión?",
+    "confirmCancelMessage": "¿Está seguro de que desea cancelar su inscripción en la sesión?",
+    "confirmCompleteMessage": "¿Está seguro de que desea marcar la sesión como completada?",
+    "confirmDeleteSessionMessage": "¿Está seguro de que desea eliminar la sesión?",
+    "confirmDeleteUserMessage": "¿Está seguro de que desea eliminar al usuario de la sesión?",
+    "capacity": "Capacidad",
+    "additionalInfo": "Información adicional",
+    "instructor": "Instructor",
+    "center": "Centro",
+    "users": "Participantes",
+    "activity": "Actividad",
+    "loadingUsersMessage": "Cargando usuarios...",
+    "confirmButton": "Confirmar",
+    "cancelButton": "Cancelar"
+  },
+  "UserProfile": {
+    "loadingMessage": "Cargando...",
+    "activitiesTitle": "Actividades",
+    "editButton": "Editar",
+    "logoutButton": "Cerrar sesión",
+    "cancelButton": "Cancelar",
+    "saveButton": "Guardar",
+    "successMessage": "Perfil actualizado correctamente.",
+    "errorMessage": "Error al actualizar el perfil.",
+    "allFieldsRequired": "Todos los campos son obligatorios.",
+    "editProfileTitle": "Editar Perfil",
+    "gymName": "Nombre",
+    "location": "Ubicación",
+    "city": "Ciudad",
+    "country": "País",
+    "zipCode": "Código Postal",
+    "description": "Descripción"
+  },
+  "ActivityItemComponent": {
+    "deleteConfirmation": "¿Estás seguro que quieres eliminar la actividad?",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Confirmar"
+  },
+  "ActivityItem": {
+    "deleteConfirmation": "¿Estás seguro de que quieres eliminar la actividad?",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Confirmar",
+    "deleteSuccess": "Actividad eliminada",
+    "deleteError": "Error al eliminar la actividad",
+    "viewDetails": "Ver Detalles"
+  },
+  "CreateActivityScreen": {
+    "activityName": "Nombre de la Actividad",
+    "description": "Descripción",
+    "namePlaceholder": "Introduce el nombre de la actividad",
+    "descriptionPlaceholder": "Detalla la actividad aquí",
+    "cancelButton": "Cancelar",
+    "createButton": "Crear",
+    "errorMessage": "Por favor, completa todos los campos.",
+    "successMessage": "Actividad creada con éxito!",
+    "createError": "No se pudo crear la actividad."
+  },
+  "CreateSesionScreen": {
+    "name": "Nombre",
+    "instructor": "Instructor",
+    "additionalInfo": "Información Adicional",
+    "capacity": "Capacidad",
+    "date": "Fecha",
+    "startTime": "Hora de inicio",
+    "endTime": "Hora de fin",
+    "isRecurring": "¿Se repite?",
+    "participants": "Participantes",
+    "errors": {
+      "title": "Error",
+      "fillAllFields": "Por favor, completa todos los campos requeridos."
+    },
+    "alert": {
+      "success": "Éxito",
+      "sessionCreated": "Sesión creada con éxito!",
+      "sessionUpdated": "Sesión modificada con éxito!",
+      "error": "Error",
+      "sessionCreateFailed": "No se pudo crear la sesión.",
+      "sessionUpdateFailed": "No se pudo modificar la sesión."
+    },
+    "Monday": "Lunes",
+    "Tuesday": "Martes",
+    "Wednesday": "Miércoles",
+    "Thursday": "Jueves",
+    "Friday": "Viernes",
+    "Saturday": "Sábado",
+    "Sunday": "Domingo",
+    "enterSessionName": "Introduce el nombre de la sesión",
+    "enterInstructorName": "Introduce el nombre del instructor",
+    "enterAdditionalInfo": "Detalla la información adicional",
+    "enterCapacity": "Introduce la capacidad",
+    "back": "Volver",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "create": "Crear"
+  },
+  "GymItem": {
+    "joinGymConfirmation": "¿Estás seguro que quieres solicitar unirte al gimnasio?",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Confirmar",
+    "success": "Éxito",
+    "requestSentSuccess": "Tu solicitud para unirse al gimnasio ha sido enviada.",
+    "warning": "Advertencia",
+    "requestPendingAlert": "Ya has enviado una solicitud para unirte a este gimnasio. Espera a que se procese.",
+    "alreadyMemberAlert": "Ya formas parte de este gimnasio",
+    "requestRejectedAlert": "Ya has enviado una solicitud para unirte a este gimnasio y ha sido rechazada.",
+    "error": "Error",
+    "checkRequestError": "Error al verificar la solicitud: ",
+    "checkRequestErrorAlert": "Error al verificar solicitudes existentes.",
+    "requestSent": "Solicitud para unirse al gimnasio enviada con éxito.",
+    "requestPending": "Ya existe una solicitud pendiente para este gimnasio.",
+    "requestAccepted": "Ya existe una solicitud aceptada para este gimnasio.",
+    "requestRejected": "Ya existe una solicitud rechazada para este gimnasio."
+  },
+  "PendingUserItem": {
+    "acceptConfirm": "¿Estás seguro que quieres aceptar la solicitud de inscripción del usuario?",
+    "rejectConfirm": "¿Estás seguro que quieres rechazar la solicitud de inscripción del usuario?",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Confirmar",
+    "acceptedAlertTitle": "Solicitud aceptada",
+    "acceptedAlertMessage": "La solicitud de inscripción ha sido aceptada.",
+    "rejectedAlertTitle": "Solicitud rechazada",
+    "rejectedAlertMessage": "La solicitud de inscripción ha sido rechazada.",
+    "acceptedStatus": "Aceptada",
+    "rejectedStatus": "Rechazada",
+    "updateError": "Error al actualizar la inscripción pendiente: "
+  },
+  "SessionDoneItem": {
+    "deleteConfirmation": "¿Estás seguro que quieres eliminar la sesión?",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Confirmar",
+    "enrollConfirmation": "¿Estás seguro que quieres inscribirte en la sesión?",
+    "cancelEnrollConfirmation": "¿Estás seguro que quieres cancelar tu inscripción en la sesión?",
+    "capacityErrorTitle": "Error",
+    "capacityErrorMessage": "La sesión está llena.",
+    "registerSuccessTitle": "Éxito",
+    "registerSuccessMessage": "Inscripción realizada con éxito!",
+    "alreadyRegisteredTitle": "Advertencia",
+    "alreadyRegisteredMessage": "Ya estás inscrito en la sesión.",
+    "registerError": "Error al inscribirse en la sesión: ",
+    "registerErrorTitle": "Error",
+    "registerErrorMessage": "No se pudo inscribirse en la sesión.",
+    "cancelSuccessTitle": "Reserva eliminada",
+    "cancelSuccessMessage": "Reserva eliminada con éxito.",
+    "cancelError": "Error eliminando la reserva: ",
+    "cancelErrorTitle": "Error",
+    "cancelErrorMessage": "No se pudo eliminar la reserva.",
+    "removeSuccessTitle": "Sesión eliminada",
+    "removeSuccessMessage": "Sesión eliminada con éxito.",
+    "removeError": "Error eliminando sesión: ",
+    "removeErrorTitle": "Error",
+    "removeErrorMessage": "No se pudo eliminar la sesión."
+  },
+  "SessionItem": {
+    "deleteConfirmation": "¿Estás seguro que quieres eliminar la sesión?",
+    "cancelButton": "Cancelar",
+    "confirmButton": "Confirmar",
+    "enrollConfirmation": "¿Estás seguro que quieres inscribirte en la sesión?",
+    "cancelEnrollConfirmation": "¿Estás seguro que quieres cancelar tu inscripción en la sesión?",
+    "capacityErrorTitle": "Error",
+    "capacityErrorMessage": "La sesión está llena.",
+    "registerSuccessTitle": "Éxito",
+    "registerSuccessMessage": "Inscripción realizada con éxito!",
+    "alreadyRegisteredTitle": "Advertencia",
+    "alreadyRegisteredMessage": "Ya estás inscrito en la sesión.",
+    "registerError": "Error al inscribirse en la sesión: ",
+    "registerErrorTitle": "Error",
+    "registerErrorMessage": "No se pudo inscribirse en la sesión.",
+    "cancelSuccessTitle": "Reserva eliminada",
+    "cancelSuccessMessage": "Reserva eliminada con éxito.",
+    "cancelError": "Error eliminando la reserva: ",
+    "cancelErrorTitle": "Error",
+    "cancelErrorMessage": "No se pudo eliminar la reserva.",
+    "removeSuccessTitle": "Sesión eliminada",
+    "removeSuccessMessage": "Sesión eliminada con éxito.",
+    "removeError": "Error eliminando sesión: ",
+    "removeErrorTitle": "Error",
+    "removeErrorMessage": "No se pudo eliminar la sesión.",
+    "isRecurring": "Se repite"
+  },
+  "SessionItem2": {
+    "gym": "Gimnasio:",
+    "capacity": "Capacidad:",
+    "infoButton": "Info",
+    "enrollButton": "Inscribirse",
+    "cancelButton": "Cancelar",
+    "loadingMessage": "Cargando..."
+  },
+  "ShowActivityProfile": {
+    "noActivityData": "No hay datos de la actividad",
+    "activityName": "Nombre de la Actividad",
+    "descriptionNotAvailable": "Descripción no disponible",
+    "sessions": "Sesiones",
+    "newSessionButton": "Nueva Sesión"
+  },
+  "UpdateSessionScreen": {
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Nombre de la sesión",
+      "instructor": "Instructor",
+      "instructorPlaceholder": "Nombre del instructor",
+      "additionalInfo": "Información Adicional",
+      "additionalInfoPlaceholder": "Detalla la información adicional",
+      "capacity": "Capacidad",
+      "capacityPlaceholder": "Capacidad",
+      "isRecurring": "Se repite?",
+      "sessionDate": "Fecha de la Sesión",
+      "startTime": "Hora de inicio",
+      "endTime": "Hora de fin",
+      "updateButton": "Actualizar"
+    },
+    "errors": {
+      "title": "Error",
+      "completeFields": "Por favor, completa todos los campos requeridos.",
+      "message": "No se pudo modificar la actividad."
+    },
+    "success": {
+      "title": "Éxito",
+      "message": "Actividad modificada con éxito!"
+    }
+  },
+  "UserGymItem": {
+    "modal": {
+      "confirmationMessage": "¿Estás seguro que quieres darte de baja del centro?",
+      "cancelButton": "Cancelar",
+      "confirmButton": "Confirmar"
+    },
+    "success": "Te has dado de baja con éxito",
+    "errors": {
+      "deletingUser": "Error eliminando usuario: "
+    }
+  },
+  "UserItem": {
+    "modal": {
+      "confirmationMessage": "¿Estás seguro que quieres eliminar al usuario del centro?",
+      "cancelButton": "Cancelar",
+      "confirmButton": "Confirmar"
+    },
+    "success": "Usuario eliminado",
+    "errors": {
+      "deletingUser": "Error eliminando usuario: "
+    }
+  }
+}

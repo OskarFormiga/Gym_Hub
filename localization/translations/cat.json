@@ -1,0 +1,440 @@
+{
+  "LoginScreen": {
+    "emailPlaceholder": "Correu electrònic/Usuari",
+    "passwordPlaceholder": "Contrasenya",
+    "loginButton": "Iniciar Sessió",
+    "registerLink": "No tens compte? Registra't",
+    "forgotPasswordLink": "Has oblidat la teva contrasenya?",
+    "emailError": "El correu electrònic no pot estar buit.",
+    "passwordError": "La contrasenya no pot estar buida.",
+    "introText": "Inici de Sessió",
+    "language": {
+      "english": "EN",
+      "spanish": "ES",
+      "catalan": "CAT"
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "S'ha produït un error. Si us plau, intenta-ho de nou."
+    }
+  },
+  "RegisterGymScreen": {
+    "title": "Registre de Centre",
+    "namePlaceholder": "Nom",
+    "cityPlaceholder": "Ciutat",
+    "locationPlaceholder": "Ubicació",
+    "countryPlaceholder": "País",
+    "zipCodePlaceholder": "Codi Postal",
+    "descriptionPlaceholder": "Descripció",
+    "emailPlaceholder": "Correu Electrònic",
+    "passwordPlaceholder": "Contrasenya",
+    "confirmPasswordPlaceholder": "Confirmar Contrasenya",
+    "registerButton": "Registrar",
+    "backToLoginLink": "Tornar a l'Inici de Sessió",
+    "registerUserLink": "Vols donar-te d'alta com a usuari?",
+    "errors": {
+      "nameError": "El nom no pot estar buit.",
+      "cityError": "La ciutat no pot estar buida.",
+      "countryError": "El país no pot estar buit.",
+      "locationError": "L'ubicació no pot estar buida.",
+      "zipCodeError": "El codi postal no pot estar buit.",
+      "descriptionError": "La descripció no pot estar buida.",
+      "emailError": "El correu electrònic no pot estar buit.",
+      "emailInvalidError": "El correu electrònic no és vàlid.",
+      "passwordError": "La contrasenya no pot estar buida.",
+      "confirmPasswordError": "Les contrasenyes no coincideixen."
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "S'ha produït un error. Si us plau, intenta-ho de nou."
+    }
+  },
+  "RegisterUserScreen": {
+    "title": "Registre d'Usuari",
+    "namePlaceholder": "Nom",
+    "lastnamePlaceholder": "Cognom",
+    "birthDatePlaceholder": "Data de Naixement",
+    "countryPlaceholder": "País",
+    "emailPlaceholder": "Correu Electrònic",
+    "passwordPlaceholder": "Contrasenya",
+    "confirmPasswordPlaceholder": "Confirmar Contrasenya",
+    "registerButton": "Registrar",
+    "backToLoginLink": "Tornar a l'Inici de Sessió",
+    "registerGymLink": "Vols donar d'alta un centre?",
+    "errors": {
+      "nameError": "El nom no pot estar buit.",
+      "lastnameError": "El cognom no pot estar buit.",
+      "birthDateError": "La data de naixement no pot estar buida.",
+      "countryError": "El país no pot estar buit.",
+      "emailError": "El correu electrònic no pot estar buit.",
+      "emailInvalidError": "El correu electrònic no és vàlid.",
+      "passwordError": "La contrasenya no pot estar buida.",
+      "confirmPasswordError": "Les contrasenyes no coincideixen."
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "S'ha produït un error. Si us plau, intenta-ho de nou."
+    }
+  },
+  "ForgotPasswordScreen": {
+    "emailPlaceholder": "Correu Electrònic",
+    "resetPasswordButton": "Restablir Contrasenya",
+    "backToLoginLink": "Tornar a l'Inici de Sessió",
+    "errors": {
+      "emailError": "El correu electrònic no pot estar buit.",
+      "emailInvalidError": "El correu electrònic no és vàlid."
+    }
+  },
+  "UserCalendarScreen": {
+    "applyButton": "Aplicar",
+    "all": "Tot",
+    "morning": "Matí",
+    "noon": "Migdia",
+    "afternoon": "Tarda",
+    "allGyms": "Tots els Centres",
+    "sessionsTitle": "Sessions el",
+    "noSessions": "No hi ha sessions el",
+    "modal": {
+      "instructor": "Instructor",
+      "center": "Centre",
+      "capacity": "Capacitat",
+      "additionalInfo": "Informació Addicional",
+      "activity": "Activitat",
+      "enroll": "Inscriure's",
+      "cancel": "Cancel·lar",
+      "completed": "Completat"
+    },
+    "confirmEnroll": {
+      "title": "Confirmar Inscripció",
+      "message": "Estàs segur que vols inscriure't a la sessió",
+      "confirmButton": "Confirmar",
+      "cancelButton": "Cancel·lar"
+    },
+    "confirmCancel": {
+      "title": "Confirmar Cancel·lació",
+      "message": "Estàs segur que vols cancel·lar la teva inscripció a la sessió",
+      "confirmButton": "Confirmar",
+      "cancelButton": "Cancel·lar"
+    },
+    "loadingMessage": "Carregant..."
+  },
+  "GymSearchScreen": {
+    "currentReservations": "Reserves actuals",
+    "completedReservations": "Reserves completades",
+    "searchPlaceholder": "Cerca per nom...",
+    "showActivityButton": "Mostrar Activitat"
+  },
+  "RankingScreen": {
+    "weekly": "Setmanal",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "completedSessions": "Sessions completades",
+    "currentSessions": "Sessions actuals",
+    "searchPlaceholder": "Cerca per nom...",
+    "showActivityButton": "Mostrar Activitat"
+  },
+  "UserComponent": {
+    "loadingMessage": "Carregant...",
+    "editProfileButton": "Editar",
+    "logoutButton": "Tancar sessió",
+    "completedSessions": "Sessions completades",
+    "year": "Any",
+    "month": "Mes",
+    "week": "Setmana",
+    "gyms": "Gimnasos",
+    "born": "Nascut el",
+    "editProfileTitle": "Editar perfil",
+    "firstNameLabel": "Nom",
+    "lastNameLabel": "Cognom",
+    "cityLabel": "Ciutat",
+    "countryLabel": "País",
+    "birthDateLabel": "Data de naixement",
+    "cancelButton": "Cancel·lar",
+    "saveButton": "Desar",
+    "deleteGymConfirmation": "Estàs segur que vols donar-te de baixa del centre?",
+    "deleteGymSuccess": "T'has donat de baixa amb èxit",
+    "deleteGymError": "Error en eliminar el gimnàs",
+    "allFieldsRequired": "Tots els camps són obligatoris.",
+    "profileUpdateSuccess": "Perfil actualitzat amb èxit",
+    "profileUpdateError": "Error en actualitzar el perfil"
+  },
+  "GymsViewComponent": {
+    "loadingMessage": "Carregant...",
+    "searchPlaceholder": "Cerca per nom...",
+    "searchCentersButton": "Cercar centres",
+    "myCentersButton": "Els meus centres",
+    "previousButton": "Anterior",
+    "nextButton": "Següent"
+  },
+  "UsersScreen": {
+    "loadingMessage": "Carregant...",
+    "searchPlaceholder": "Cerca usuaris...",
+    "currentRegistrationsButton": "Inscripcions Actuals",
+    "pendingRegistrationsButton": "Inscripcions Pendents",
+    "previousButton": "Anterior",
+    "nextButton": "Següent"
+  },
+  "ActivitiesScreen": {
+    "loadingMessage": "Carregant...",
+    "searchPlaceholder": "Cerca activitats...",
+    "addActivityButton": "Afegir Activitat",
+    "previousButton": "Anterior",
+    "nextButton": "Següent"
+  },
+  "CalendarScreen": {
+    "loadingMessage": "Carregant...",
+    "all": "Tot",
+    "morning": "Matí",
+    "noon": "Migdia",
+    "afternoon": "Tarda",
+    "applyButton": "Aplicar",
+    "sessionsTitle": "Sessions el:",
+    "noSessionsMessage": "No hi ha sessions el",
+    "enroll": "Inscriure's",
+    "cancelEnroll": "Cancel·lar inscripció",
+    "complete": "Completar",
+    "update": "Actualitzar",
+    "delete": "Eliminar",
+    "confirmEnrollMessage": "Estàs segur que vols inscriure't a la sessió?",
+    "confirmCancelMessage": "Estàs segur que vols cancel·lar la teva inscripció a la sessió?",
+    "confirmCompleteMessage": "Estàs segur que vols marcar la sessió com a completada?",
+    "confirmDeleteSessionMessage": "Estàs segur que vols eliminar la sessió?",
+    "confirmDeleteUserMessage": "Estàs segur que vols eliminar l'usuari de la sessió?",
+    "capacity": "Capacitat",
+    "additionalInfo": "Informació addicional",
+    "instructor": "Instructor",
+    "center": "Centre",
+    "users": "Participants",
+    "activity": "Activitat",
+    "loadingUsersMessage": "Carregant usuaris...",
+    "confirmButton": "Confirmar",
+    "cancelButton": "Cancel·lar"
+  },
+  "UserProfile": {
+    "loadingMessage": "Carregant...",
+    "activitiesTitle": "Activitats",
+    "editButton": "Editar",
+    "logoutButton": "Tancar sessió",
+    "cancelButton": "Cancel·lar",
+    "saveButton": "Desar",
+    "successMessage": "Perfil actualitzat correctament.",
+    "errorMessage": "Error en actualitzar el perfil.",
+    "allFieldsRequired": "Tots els camps són obligatoris.",
+    "editProfileTitle": "Editar Perfil",
+    "gymName": "Nom",
+    "location": "Ubicació",
+    "city": "Ciutat",
+    "country": "País",
+    "zipCode": "Codi Postal",
+    "description": "Descripció"
+  },
+  "ActivityItemComponent": {
+    "deleteConfirmation": "Estàs segur que vols eliminar l'activitat?",
+    "cancelButton": "Cancel·lar",
+    "confirmButton": "Confirmar"
+  },
+  "ActivityItem": {
+    "deleteConfirmation": "Estàs segur que vols eliminar l'activitat?",
+    "cancelButton": "Cancel·lar",
+    "confirmButton": "Confirmar",
+    "deleteSuccess": "Activitat eliminada",
+    "deleteError": "Error en eliminar l'activitat",
+    "viewDetails": "Veure Detalls"
+  },
+  "CreateActivityScreen": {
+    "activityName": "Nom de l'Activitat",
+    "description": "Descripció",
+    "namePlaceholder": "Introdueix el nom de l'activitat",
+    "descriptionPlaceholder": "Detalla l'activitat aquí",
+    "cancelButton": "Cancel·lar",
+    "createButton": "Crear",
+    "errorMessage": "Si us plau, completa tots els camps.",
+    "successMessage": "Activitat creada amb èxit!",
+    "createError": "No s'ha pogut crear l'activitat."
+  },
+  "CreateSesionScreen": {
+    "name": "Nom",
+    "instructor": "Instructor",
+    "additionalInfo": "Informació Addicional",
+    "capacity": "Capacitat",
+    "date": "Data",
+    "startTime": "Hora d'inici",
+    "endTime": "Hora de fi",
+    "isRecurring": "És recurrent?",
+    "participants": "Participants",
+    "errors": {
+      "title": "Error",
+      "fillAllFields": "Si us plau, completa tots els camps requerits."
+    },
+    "alert": {
+      "success": "Èxit",
+      "sessionCreated": "Sessió creada amb èxit!",
+      "sessionUpdated": "Sessió modificada amb èxit!",
+      "error": "Error",
+      "sessionCreateFailed": "No s'ha pogut crear la sessió.",
+      "sessionUpdateFailed": "No s'ha pogut modificar la sessió."
+    },
+    "Monday": "Dilluns",
+    "Tuesday": "Dimarts",
+    "Wednesday": "Dimecres",
+    "Thursday": "Dijous",
+    "Friday": "Divendres",
+    "Saturday": "Dissabte",
+    "Sunday": "Diumenge",
+    "enterSessionName": "Introdueix el nom de la sessió",
+    "enterInstructorName": "Introdueix el nom de l'instructor",
+    "enterAdditionalInfo": "Detalla la informació addicional",
+    "enterCapacity": "Introdueix la capacitat",
+    "back": "Tornar",
+    "cancel": "Cancel·lar",
+    "save": "Desar",
+    "create": "Crear"
+  },
+  "GymItem": {
+    "joinGymConfirmation": "Estàs segur que vols sol·licitar unir-te al gimnàs?",
+    "cancelButton": "Cancel·lar",
+    "confirmButton": "Confirmar",
+    "success": "Èxit",
+    "requestSentSuccess": "La teva sol·licitud per unir-te al gimnàs ha estat enviada.",
+    "warning": "Advertència",
+    "requestPendingAlert": "Ja has enviat una sol·licitud per unir-te a aquest gimnàs. Espera que es processi.",
+    "alreadyMemberAlert": "Ja formes part d'aquest gimnàs",
+    "requestRejectedAlert": "Ja has enviat una sol·licitud per unir-te a aquest gimnàs i ha estat rebutjada.",
+    "error": "Error",
+    "checkRequestError": "Error en verificar la sol·licitud: ",
+    "checkRequestErrorAlert": "Error en verificar sol·licituds existents.",
+    "requestSent": "Sol·licitud per unir-se al gimnàs enviada amb èxit.",
+    "requestPending": "Ja existeix una sol·licitud pendent per aquest gimnàs.",
+    "requestAccepted": "Ja existeix una sol·licitud acceptada per aquest gimnàs.",
+    "requestRejected": "Ja existeix una sol·licitud rebutjada per aquest gimnàs."
+  },
+  "PendingUserItem": {
+    "acceptConfirm": "Estàs segur que vols acceptar la sol·licitud d'inscripció de l'usuari?",
+    "rejectConfirm": "Estàs segur que vols rebutjar la sol·licitud d'inscripció de l'usuari?",
+    "cancelButton": "Cancel·lar",
+    "confirmButton": "Confirmar",
+    "acceptedAlertTitle": "Sol·licitud Acceptada",
+    "acceptedAlertMessage": "La sol·licitud d'inscripció ha estat acceptada.",
+    "rejectedAlertTitle": "Sol·licitud Rebutjada",
+    "rejectedAlertMessage": "La sol·licitud d'inscripció ha estat rebutjada.",
+    "acceptedStatus": "Acceptada",
+    "rejectedStatus": "Rebutjada",
+    "updateError": "Error en actualitzar la inscripció pendent: "
+  },
+  "SessionDoneItem": {
+    "deleteConfirmation": "Estàs segur que vols eliminar la sessió?",
+    "cancelButton": "Cancel·lar",
+    "confirmButton": "Confirmar",
+    "enrollConfirmation": "Estàs segur que vols inscriure't a la sessió?",
+    "cancelEnrollConfirmation": "Estàs segur que vols cancel·lar la teva inscripció a la sessió?",
+    "capacityErrorTitle": "Error",
+    "capacityErrorMessage": "La sessió està plena.",
+    "registerSuccessTitle": "Èxit",
+    "registerSuccessMessage": "Inscripció realitzada amb èxit!",
+    "alreadyRegisteredTitle": "Advertència",
+    "alreadyRegisteredMessage": "Ja estàs inscrit a la sessió.",
+    "registerError": "Error en inscriure's a la sessió: ",
+    "registerErrorTitle": "Error",
+    "registerErrorMessage": "No s'ha pogut inscriure a la sessió.",
+    "cancelSuccessTitle": "Reserva eliminada",
+    "cancelSuccessMessage": "Reserva eliminada amb èxit.",
+    "cancelError": "Error en eliminar la reserva: ",
+    "cancelErrorTitle": "Error",
+    "cancelErrorMessage": "No s'ha pogut eliminar la reserva.",
+    "removeSuccessTitle": "Sessió eliminada",
+    "removeSuccessMessage": "Sessió eliminada amb èxit.",
+    "removeError": "Error en eliminar la sessió: ",
+    "removeErrorTitle": "Error",
+    "removeErrorMessage": "No s'ha pogut eliminar la sessió."
+  },
+  "SessionItem": {
+    "deleteConfirmation": "Estàs segur que vols eliminar la sessió?",
+    "cancelButton": "Cancel·lar",
+    "confirmButton": "Confirmar",
+    "enrollConfirmation": "Estàs segur que vols inscriure't a la sessió?",
+    "cancelEnrollConfirmation": "Estàs segur que vols cancel·lar la teva inscripció a la sessió?",
+    "capacityErrorTitle": "Error",
+    "capacityErrorMessage": "La sessió està plena.",
+    "registerSuccessTitle": "Èxit",
+    "registerSuccessMessage": "Inscripció realitzada amb èxit!",
+    "alreadyRegisteredTitle": "Advertència",
+    "alreadyRegisteredMessage": "Ja estàs inscrit a la sessió.",
+    "registerError": "Error en inscriure's a la sessió: ",
+    "registerErrorTitle": "Error",
+    "registerErrorMessage": "No s'ha pogut inscriure a la sessió.",
+    "cancelSuccessTitle": "Reserva eliminada",
+    "cancelSuccessMessage": "Reserva eliminada amb èxit.",
+    "cancelError": "Error en eliminar la reserva: ",
+    "cancelErrorTitle": "Error",
+    "cancelErrorMessage": "No s'ha pogut eliminar la reserva.",
+    "removeSuccessTitle": "Sessió eliminada",
+    "removeSuccessMessage": "Sessió eliminada amb èxit.",
+    "removeError": "Error en eliminar la sessió: ",
+    "removeErrorTitle": "Error",
+    "removeErrorMessage": "No s'ha pogut eliminar la sessió.",
+    "isRecurring": "Es repeteix"
+  },
+  "SessionItem2": {
+    "gym": "Gimnàs:",
+    "capacity": "Capacitat:",
+    "infoButton": "Info",
+    "enrollButton": "Inscriure's",
+    "cancelButton": "Cancel·lar",
+    "loadingMessage": "Carregant..."
+  },
+  "ShowActivityProfile": {
+    "noActivityData": "No hi ha dades de l'activitat",
+    "activityName": "Nom de l'Activitat",
+    "descriptionNotAvailable": "Descripció no disponible",
+    "sessions": "Sessions",
+    "newSessionButton": "Nova Sessió"
+  },
+  "UpdateSessionScreen": {
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Nom de la sessió",
+      "instructor": "Instructor",
+      "instructorPlaceholder": "Nom de l'instructor",
+      "additionalInfo": "Informació Addicional",
+      "additionalInfoPlaceholder": "Detalla la informació addicional",
+      "capacity": "Capacitat",
+      "capacityPlaceholder": "Capacitat",
+      "isRecurring": "És recurrent?",
+      "sessionDate": "Data de la Sessió",
+      "startTime": "Hora d'inici",
+      "endTime": "Hora de fi",
+      "updateButton": "Actualitzar"
+    },
+    "errors": {
+      "title": "Error",
+      "completeFields": "Si us plau, completa tots els camps requerits.",
+      "message": "No s'ha pogut modificar l'activitat."
+    },
+    "success": {
+      "title": "Èxit",
+      "message": "Activitat modificada amb èxit!"
+    }
+  },
+  "UserGymItem": {
+    "modal": {
+      "confirmationMessage": "Estàs segur que vols donar-te de baixa del centre?",
+      "cancelButton": "Cancel·lar",
+      "confirmButton": "Confirmar"
+    },
+    "success": "T'has donat de baixa amb èxit",
+    "errors": {
+      "deletingUser": "Error en eliminar l'usuari: "
+    }
+  },
+  "UserItem": {
+    "modal": {
+      "confirmationMessage": "Estàs segur que vols eliminar l'usuari del centre?",
+      "cancelButton": "Cancel·lar",
+      "confirmButton": "Confirmar"
+    },
+    "success": "Usuari eliminat",
+    "errors": {
+      "deletingUser": "Error en eliminar l'usuari: "
+    }
+  }
+}

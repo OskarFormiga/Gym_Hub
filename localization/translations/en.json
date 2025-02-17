@@ -1,0 +1,440 @@
+{
+  "LoginScreen": {
+    "emailPlaceholder": "Email/Username",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Log In",
+    "registerLink": "Don't have an account? Sign Up",
+    "forgotPasswordLink": "Forgot your password?",
+    "emailError": "Email cannot be empty.",
+    "passwordError": "Password cannot be empty.",
+    "introText": "Login",
+    "language": {
+      "english": "EN",
+      "spanish": "ES",
+      "catalan": "CAT"
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "An error occurred. Please try again."
+    }
+  },
+  "RegisterGymScreen": {
+    "title": "Gym Registration",
+    "namePlaceholder": "Name",
+    "cityPlaceholder": "City",
+    "locationPlaceholder": "Location",
+    "countryPlaceholder": "Country",
+    "zipCodePlaceholder": "Zip Code",
+    "descriptionPlaceholder": "Description",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "registerButton": "Register",
+    "backToLoginLink": "Back to Login",
+    "registerUserLink": "Want to register as a user?",
+    "errors": {
+      "nameError": "Name cannot be empty.",
+      "cityError": "City cannot be empty.",
+      "countryError": "Country cannot be empty.",
+      "locationError": "Location cannot be empty.",
+      "zipCodeError": "Zip Code cannot be empty.",
+      "descriptionError": "Description cannot be empty.",
+      "emailError": "Email cannot be empty.",
+      "emailInvalidError": "Invalid email.",
+      "passwordError": "Password cannot be empty.",
+      "confirmPasswordError": "Passwords do not match."
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "An error occurred. Please try again."
+    }
+  },
+  "RegisterUserScreen": {
+    "title": "User Registration",
+    "namePlaceholder": "First Name",
+    "lastnamePlaceholder": "Last Name",
+    "birthDatePlaceholder": "Date of Birth",
+    "countryPlaceholder": "Country",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "registerButton": "Register",
+    "backToLoginLink": "Back to Login",
+    "registerGymLink": "Want to register a gym?",
+    "errors": {
+      "nameError": "First Name cannot be empty.",
+      "lastnameError": "Last Name cannot be empty.",
+      "birthDateError": "Date of Birth cannot be empty.",
+      "countryError": "Country cannot be empty.",
+      "emailError": "Email cannot be empty.",
+      "emailInvalidError": "Invalid email.",
+      "passwordError": "Password cannot be empty.",
+      "confirmPasswordError": "Passwords do not match."
+    },
+    "alert": {
+      "error": "Error",
+      "errorMessage": "An error occurred. Please try again."
+    }
+  },
+  "ForgotPasswordScreen": {
+    "emailPlaceholder": "Email",
+    "resetPasswordButton": "Reset Password",
+    "backToLoginLink": "Back to Login",
+    "errors": {
+      "emailError": "Email cannot be empty.",
+      "emailInvalidError": "Invalid email."
+    }
+  },
+  "UserCalendarScreen": {
+    "applyButton": "Apply",
+    "all": "All",
+    "morning": "Morning",
+    "noon": "Noon",
+    "afternoon": "Afternoon",
+    "allGyms": "All Gyms",
+    "sessionsTitle": "Sessions for ",
+    "noSessions": "No sessions for ",
+    "modal": {
+      "instructor": "Instructor",
+      "center": "Center",
+      "capacity": "Capacity",
+      "additionalInfo": "Additional Information",
+      "activity": "Activity",
+      "enroll": "Enroll",
+      "cancel": "Cancel",
+      "completed": "Completed"
+    },
+    "confirmEnroll": {
+      "title": "Confirm Enrollment",
+      "message": "Are you sure you want to enroll in the session",
+      "confirmButton": "Confirm",
+      "cancelButton": "Cancel"
+    },
+    "confirmCancel": {
+      "title": "Confirm Cancellation",
+      "message": "Are you sure you want to cancel your enrollment in the session",
+      "confirmButton": "Confirm",
+      "cancelButton": "Cancel"
+    },
+    "loadingMessage": "Loading..."
+  },
+  "GymSearchScreen": {
+    "currentReservations": "Current Reservations",
+    "completedReservations": "Completed Reservations",
+    "searchPlaceholder": "Search by name...",
+    "showActivityButton": "Show Activity"
+  },
+  "RankingScreen": {
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "completedSessions": "Completed Sessions",
+    "currentSessions": "Current Sessions",
+    "searchPlaceholder": "Search by name...",
+    "showActivityButton": "Show Activity"
+  },
+  "UserComponent": {
+    "loadingMessage": "Loading...",
+    "editProfileButton": "Edit",
+    "logoutButton": "Log Out",
+    "completedSessions": "Completed Sessions",
+    "year": "Year",
+    "month": "Month",
+    "week": "Week",
+    "gyms": "Gyms",
+    "editProfileTitle": "Edit Profile",
+    "born": "Born",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "cityLabel": "City",
+    "countryLabel": "Country",
+    "birthDateLabel": "Date of Birth",
+    "cancelButton": "Cancel",
+    "saveButton": "Save",
+    "deleteGymConfirmation": "Are you sure you want to leave the gym?",
+    "deleteGymSuccess": "Successfully left the gym",
+    "deleteGymError": "Error removing the gym",
+    "allFieldsRequired": "All fields are required.",
+    "profileUpdateSuccess": "Profile updated successfully",
+    "profileUpdateError": "Error updating the profile"
+  },
+  "GymsViewComponent": {
+    "loadingMessage": "Loading...",
+    "searchPlaceholder": "Search by name...",
+    "searchCentersButton": "Search centers",
+    "myCentersButton": "My centers",
+    "previousButton": "Previous",
+    "nextButton": "Next"
+  },
+  "UsersScreen": {
+    "loadingMessage": "Loading...",
+    "searchPlaceholder": "Search users...",
+    "currentRegistrationsButton": "Current Registrations",
+    "pendingRegistrationsButton": "Pending Registrations",
+    "previousButton": "Previous",
+    "nextButton": "Next"
+  },
+  "ActivitiesScreen": {
+    "loadingMessage": "Loading...",
+    "searchPlaceholder": "Search activities...",
+    "addActivityButton": "Add Activity",
+    "previousButton": "Previous",
+    "nextButton": "Next"
+  },
+  "CalendarScreen": {
+    "loadingMessage": "Loading...",
+    "all": "All",
+    "morning": "Morning",
+    "noon": "Noon",
+    "afternoon": "Afternoon",
+    "applyButton": "Apply",
+    "sessionsTitle": "Sessions for the selected day:",
+    "noSessionsMessage": "No sessions for the selected date",
+    "enroll": "Enroll",
+    "cancelEnroll": "Cancel enrollment",
+    "complete": "Complete",
+    "update": "Update",
+    "delete": "Delete",
+    "confirmEnrollMessage": "Are you sure you want to enroll in the session?",
+    "confirmCancelMessage": "Are you sure you want to cancel your enrollment in the session?",
+    "confirmCompleteMessage": "Are you sure you want to mark the session as completed?",
+    "confirmDeleteSessionMessage": "Are you sure you want to delete the session?",
+    "confirmDeleteUserMessage": "Are you sure you want to remove the user from the session?",
+    "capacity": "Capacity",
+    "additionalInfo": "Additional Information",
+    "instructor": "Instructor",
+    "center": "Center",
+    "users": "Participants",
+    "activity": "Activity",
+    "loadingUsersMessage": "Loading users...",
+    "confirmButton": "Confirm",
+    "cancelButton": "Cancel"
+  },
+  "UserProfile": {
+    "loadingMessage": "Loading...",
+    "activitiesTitle": "Activities",
+    "editButton": "Edit",
+    "logoutButton": "Log Out",
+    "cancelButton": "Cancel",
+    "saveButton": "Save",
+    "successMessage": "Profile updated successfully.",
+    "errorMessage": "Error updating the profile.",
+    "allFieldsRequired": "All fields are required.",
+    "editProfileTitle": "Edit Profile",
+    "gymName": "Name",
+    "location": "Location",
+    "city": "City",
+    "country": "Country",
+    "zipCode": "Zip Code",
+    "description": "Description"
+  },
+  "ActivityItemComponent": {
+    "deleteConfirmation": "Are you sure you want to delete the activity?",
+    "cancelButton": "Cancel",
+    "confirmButton": "Confirm"
+  },
+  "ActivityItem": {
+    "deleteConfirmation": "Are you sure you want to delete the activity?",
+    "cancelButton": "Cancel",
+    "confirmButton": "Confirm",
+    "deleteSuccess": "Activity deleted",
+    "deleteError": "Error deleting the activity",
+    "viewDetails": "View Details"
+  },
+  "CreateActivityScreen": {
+    "activityName": "Activity Name",
+    "description": "Description",
+    "namePlaceholder": "Enter the activity name",
+    "descriptionPlaceholder": "Detail the activity here",
+    "cancelButton": "Cancel",
+    "createButton": "Create",
+    "errorMessage": "Please fill in all fields.",
+    "successMessage": "Activity created successfully!",
+    "createError": "Could not create the activity."
+  },
+  "CreateSesionScreen": {
+    "name": "Name",
+    "instructor": "Instructor",
+    "additionalInfo": "Additional Information",
+    "capacity": "Capacity",
+    "date": "Date",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "isRecurring": "Is it recurring?",
+    "participants": "Participants",
+    "errors": {
+      "title": "Error",
+      "fillAllFields": "Please fill in all required fields."
+    },
+    "alert": {
+      "success": "Success",
+      "sessionCreated": "Session created successfully!",
+      "sessionUpdated": "Session updated successfully!",
+      "error": "Error",
+      "sessionCreateFailed": "Could not create the session.",
+      "sessionUpdateFailed": "Could not update the session."
+    },
+    "Monday": "Monday",
+    "Tuesday": "Tuesday",
+    "Wednesday": "Wednesday",
+    "Thursday": "Thursday",
+    "Friday": "Friday",
+    "Saturday": "Saturday",
+    "Sunday": "Sunday",
+    "enterSessionName": "Enter the session name",
+    "enterInstructorName": "Enter the instructor name",
+    "enterAdditionalInfo": "Detail the additional information",
+    "enterCapacity": "Enter the capacity",
+    "back": "Back",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create": "Create"
+  },
+  "GymItem": {
+    "joinGymConfirmation": "Are you sure you want to request to join the gym?",
+    "cancelButton": "Cancel",
+    "confirmButton": "Confirm",
+    "success": "Success",
+    "requestSentSuccess": "Your request to join the gym has been sent.",
+    "warning": "Warning",
+    "requestPendingAlert": "You have already sent a request to join this gym. Please wait for it to be processed.",
+    "alreadyMemberAlert": "You are already a member of this gym",
+    "requestRejectedAlert": "You have already sent a request to join this gym and it was rejected.",
+    "error": "Error",
+    "checkRequestError": "Error checking the request: ",
+    "checkRequestErrorAlert": "Error checking existing requests.",
+    "requestSent": "Request to join the gym sent successfully.",
+    "requestPending": "There is already a pending request for this gym.",
+    "requestAccepted": "There is already an accepted request for this gym.",
+    "requestRejected": "There is already a rejected request for this gym."
+  },
+  "PendingUserItem": {
+    "acceptConfirm": "Are you sure you want to accept the user's enrollment request?",
+    "rejectConfirm": "Are you sure you want to reject the user's enrollment request?",
+    "cancelButton": "Cancel",
+    "confirmButton": "Confirm",
+    "acceptedAlertTitle": "Request Accepted",
+    "acceptedAlertMessage": "The enrollment request has been accepted.",
+    "rejectedAlertTitle": "Request Rejected",
+    "rejectedAlertMessage": "The enrollment request has been rejected.",
+    "acceptedStatus": "Accepted",
+    "rejectedStatus": "Rejected",
+    "updateError": "Error updating the pending enrollment: "
+  },
+  "SessionDoneItem": {
+    "deleteConfirmation": "Are you sure you want to delete the session?",
+    "cancelButton": "Cancel",
+    "confirmButton": "Confirm",
+    "enrollConfirmation": "Are you sure you want to enroll in the session?",
+    "cancelEnrollConfirmation": "Are you sure you want to cancel your enrollment in the session?",
+    "capacityErrorTitle": "Error",
+    "capacityErrorMessage": "The session is full.",
+    "registerSuccessTitle": "Success",
+    "registerSuccessMessage": "Enrollment completed successfully!",
+    "alreadyRegisteredTitle": "Warning",
+    "alreadyRegisteredMessage": "You are already enrolled in the session.",
+    "registerError": "Error enrolling in the session: ",
+    "registerErrorTitle": "Error",
+    "registerErrorMessage": "Could not enroll in the session.",
+    "cancelSuccessTitle": "Reservation Deleted",
+    "cancelSuccessMessage": "Reservation deleted successfully.",
+    "cancelError": "Error deleting the reservation: ",
+    "cancelErrorTitle": "Error",
+    "cancelErrorMessage": "Could not delete the reservation.",
+    "removeSuccessTitle": "Session Deleted",
+    "removeSuccessMessage": "Session deleted successfully.",
+    "removeError": "Error deleting session: ",
+    "removeErrorTitle": "Error",
+    "removeErrorMessage": "Could not delete the session."
+  },
+  "SessionItem": {
+    "deleteConfirmation": "Are you sure you want to delete the session?",
+    "cancelButton": "Cancel",
+    "confirmButton": "Confirm",
+    "enrollConfirmation": "Are you sure you want to enroll in the session?",
+    "cancelEnrollConfirmation": "Are you sure you want to cancel your enrollment in the session?",
+    "capacityErrorTitle": "Error",
+    "capacityErrorMessage": "The session is full.",
+    "registerSuccessTitle": "Success",
+    "registerSuccessMessage": "Enrollment completed successfully!",
+    "alreadyRegisteredTitle": "Warning",
+    "alreadyRegisteredMessage": "You are already enrolled in the session.",
+    "registerError": "Error enrolling in the session: ",
+    "registerErrorTitle": "Error",
+    "registerErrorMessage": "Could not enroll in the session.",
+    "cancelSuccessTitle": "Reservation Deleted",
+    "cancelSuccessMessage": "Reservation deleted successfully.",
+    "cancelError": "Error deleting the reservation: ",
+    "cancelErrorTitle": "Error",
+    "cancelErrorMessage": "Could not delete the reservation.",
+    "removeSuccessTitle": "Session Deleted",
+    "removeSuccessMessage": "Session deleted successfully.",
+    "removeError": "Error deleting session: ",
+    "removeErrorTitle": "Error",
+    "removeErrorMessage": "Could not delete the session.",
+    "isRecurring": "Is recurring"
+  },
+  "SessionItem2": {
+    "gym": "Gym:",
+    "capacity": "Capacity:",
+    "infoButton": "Info",
+    "enrollButton": "Enroll",
+    "cancelButton": "Cancel",
+    "loadingMessage": "Loading..."
+  },
+  "ShowActivityProfile": {
+    "noActivityData": "No activity data available",
+    "activityName": "Activity Name",
+    "descriptionNotAvailable": "Description not available",
+    "sessions": "Sessions",
+    "newSessionButton": "New Session"
+  },
+  "UpdateSessionScreen": {
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Session name",
+      "instructor": "Instructor",
+      "instructorPlaceholder": "Instructor name",
+      "additionalInfo": "Additional Information",
+      "additionalInfoPlaceholder": "Detail the additional information",
+      "capacity": "Capacity",
+      "capacityPlaceholder": "Capacity",
+      "isRecurring": "Is it recurring?",
+      "sessionDate": "Session Date",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "updateButton": "Update"
+    },
+    "errors": {
+      "title": "Error",
+      "completeFields": "Please fill in all required fields.",
+      "message": "Could not modify the activity."
+    },
+    "success": {
+      "title": "Success",
+      "message": "Activity modified successfully!"
+    }
+  },
+  "UserGymItem": {
+    "modal": {
+      "confirmationMessage": "Are you sure you want to leave the gym?",
+      "cancelButton": "Cancel",
+      "confirmButton": "Confirm"
+    },
+    "success": "Successfully left the gym",
+    "errors": {
+      "deletingUser": "Error deleting user: "
+    }
+  },
+  "UserItem": {
+    "modal": {
+      "confirmationMessage": "Are you sure you want to remove the user from the gym?",
+      "cancelButton": "Cancel",
+      "confirmButton": "Confirm"
+    },
+    "success": "User deleted",
+    "errors": {
+      "deletingUser": "Error deleting user: "
+    }
+  }
+}
