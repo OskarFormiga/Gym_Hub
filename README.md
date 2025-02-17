@@ -21,4 +21,4 @@ Los gimnasios pueden:
 
 ## Video de la Demo
 
-[Ver video de la demo aquí](https://www.youtube.com/tu_video)
+[Ver video de la demo aquí](https://www.youtube.com/watch?v=5T_Y3E9p_mA)
