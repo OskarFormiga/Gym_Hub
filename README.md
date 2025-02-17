@@ -26,6 +26,9 @@ Este flujo ayuda a mantener el código organizado y facilita las pruebas y modif
   <img src="dataFlow.jpg" alt="Data Flow" width="300"/>
 </div>
 
+Dentro de la carpeta core del repositorio, puedes ver cómo está implementada esta estructura en los componentes del proyecto. 
+
+
 ## Funcionalidades
 
 La aplicación está dividida en dos partes principales:
